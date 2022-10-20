@@ -1,0 +1,66 @@
+.nav-bar{
+    background: #5cb5e1;
+    width:110px;
+    height:100%;
+    position:absolute;
+    top: 0;
+    z-index: 3;
+    min-height:500px;
+
+    .pics
+    {
+        display:block;
+        padding:1px;
+    img
+    {
+        display:block;
+        margin: 8px auto;
+        width: 80px;
+        height: auto;
+        &:hover svg{
+            width: 60px;
+            height:100%
+        }
+    }
+}
+.logo
+{
+    display: block;
+    padding: 3px;
+    img
+    {
+        display:block;
+        margin: 20px auto;
+        width: 100px;
+        height: auto;
+        &:hover svg{
+            width: 60px;
+            height:100%
+        }
+    }
+
+}
+
+ul{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    li{
+        a{
+            padding: 10px 0;
+            display: block;
+            font-size: 55px;
+            line-height: 16px;
+            &:hover svg{
+                color: #d60505
+            }
+        }
+    }
+}
+
+}
