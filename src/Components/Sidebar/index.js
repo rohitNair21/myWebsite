@@ -15,7 +15,7 @@ import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-ic
 const Sidebar = () => (
     <div className='nav-bar'>
     <Link className="pics" to='/'>
-        <img src={myPhoto} alt="pics" />
+        <img src={myLogo} alt="pics" />
     </Link>
     <Link className="pics" to='/'>
         <img src={myPhoto2} alt="pics" />
@@ -25,9 +25,6 @@ const Sidebar = () => (
     </Link>
     <Link className="pics" to='/'>
         <img src={myPhoto4} alt="pics" />
-    </Link>
-    <Link className="logo" to='/'>
-        <img src={myLogo} alt="logo" />
     </Link>
     <ul>
         <li>

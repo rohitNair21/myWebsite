@@ -23,23 +23,6 @@
         }
     }
 }
-.logo
-{
-    display: block;
-    padding: 3px;
-    img
-    {
-        display:block;
-        margin: 20px auto;
-        width: 100px;
-        height: auto;
-        &:hover svg{
-            width: 60px;
-            height:100%
-        }
-    }
-
-}
 
 ul{
     position: absolute;
