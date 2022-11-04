@@ -1,0 +1,18 @@
+.About{
+    position: absolute;
+    left: 70%;
+    top:50%;
+    width:40%;
+    font-family: 'Helvetica Neue';
+    h1{
+        animation: colorChange 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes colorChange {
+    0%{color:black}
+    35%{color:red}
+    70%{color:yellow}
+    100%{color:black}
+}
