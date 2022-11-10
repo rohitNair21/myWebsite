@@ -1,4 +1,6 @@
 .nav-bar{
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background: #5cb5e1;
     width:110px;
     height:100%;
@@ -6,7 +8,6 @@
     top: 0;
     z-index: 3;
     min-height:500px;
-
     .pics
     {
         display:block;
@@ -24,26 +25,50 @@
     }
 }
 
-ul{
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: block;
-    padding: 0;
-    list-style: none;
+
+li{
     text-align: center;
+    width: 100%;
+    padding: 0px;
     margin: 0;
-    li{
-        a{
-            padding: 10px 0;
-            display: block;
-            font-size: 55px;
-            line-height: 16px;
-            &:hover svg{
-                color: #d60505
-            }
+    display: block;
+    align-items: center;
+    justify-content: center;
+    a{
+        padding: 10px 0;
+        display: block;
+        font-size: 55px;
+        line-height: 16px;
+        &:hover svg{
+            color: #d60505
         }
     }
-}
+    }
+
+
+
+// ul{
+//     position: absolute;
+//     width: 100%;
+//     display: block;
+//     padding: 0px;
+//     max-height: 50%;
+//     top:450px;
+//     bottom: 20px;
+//     list-style: none;
+//     text-align: center;
+//     margin: 0;
+//     li{
+//         a{
+//             padding: 10px 0;
+//             display: block;
+//             font-size: 55px;
+//             line-height: 16px;
+//             &:hover svg{
+//                 color: #d60505
+//             }
+//         }
+//     }
+// }
 
 }

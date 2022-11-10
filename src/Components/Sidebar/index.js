@@ -26,30 +26,26 @@ const Sidebar = () => (
     <Link className="pics" to='/'>
         <img src={myPhoto4} alt="pics" />
     </Link>
-    <ul>
-        <li>
-            <a target = "_blank" rel="noreferrer" href='https://www.linkedin.com/in/rohit-n-345957192/'>
-                <FontAwesomeIcon icon={faLinkedin} color="#1e1919" />
-            </a>
-        </li>
-        <li>
-            <a target = "_blank" rel="noreferrer" href='https://github.com/rohitNair21'>
-                <FontAwesomeIcon icon={faGithub} color="#1e1919" />
-            </a>
-        </li>
-        <li>
-            <a target = "_blank" rel="noreferrer" href='https://www.youtube.com/channel/UCUEa1pcJZyCDFhatBQivJhw/featured'>
-                <FontAwesomeIcon icon={faYoutube} color="#1e1919" />
-            </a>
-        </li>
-        <li>
-            <a target = "_blank" rel="noreferrer" href='https://form.jotform.com/222915820871256'>
-                <FontAwesomeIcon icon={faEnvelopeSquare} color="#1e1919" />
-            </a>
-        </li>
-    </ul>
-    <nav>
-    </nav>
+    <li>
+        <a target = "_blank" rel="noreferrer" href='https://www.linkedin.com/in/rohit-n-345957192/'>
+            <FontAwesomeIcon icon={faLinkedin} color="#1e1919" />
+        </a>
+    </li>
+    <li>
+        <a target = "_blank" rel="noreferrer" href='https://github.com/rohitNair21'>
+            <FontAwesomeIcon icon={faGithub} color="#1e1919" />
+        </a>
+    </li>
+    <li>
+        <a target = "_blank" rel="noreferrer" href='https://www.youtube.com/channel/UCUEa1pcJZyCDFhatBQivJhw/featured'>
+            <FontAwesomeIcon icon={faYoutube} color="#1e1919" />
+        </a>
+    </li>
+    <li>
+        <a target = "_blank" rel="noreferrer" href='https://form.jotform.com/222915820871256'>
+            <FontAwesomeIcon icon={faEnvelopeSquare} color="#1e1919" />
+        </a>
+    </li>
 </div>   
 ) 
 

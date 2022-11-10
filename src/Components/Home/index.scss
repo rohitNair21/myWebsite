@@ -17,23 +17,27 @@
     h2{
         color: #ffff;
         font-size: 53px;
+        width:310px;
         margin: 0;
         font-family: 'Helvetica Neue';
         &:hover{
             box-shadow: inset 310px 0 0 0 #000000;
             color: #0aafe3;
+            transition: 0.8s;
         }
 
     }
     h3{
+        transition-delay: 4s;
+        animation: fade 2s;
+        animation-delay: 3s;
         margin: 0;
         font-family: 'Helvetica Neue';
-
+        animation: lateLoad 3s;
     }
 }
-@keyframes changeSize {
-    0%{color:black}
-    35%{color:red}
-    70%{color:yellow}
-    100%{color:black}
+@keyframes lateLoad {  
+    0%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 1}
 }
