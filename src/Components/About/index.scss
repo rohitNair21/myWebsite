@@ -1,15 +1,42 @@
 .About{
     position: absolute;
-    left: 70%;
-    top:40%;
+    text-align: center;
+    left: 60%;
+    top:50%;
+    transform:translateY(-50%);
     width:20%;
-    margin-left: 50px;
-    margin-right: 10px;
+    margin-left: 150px;
+    max-height: 90%;
     font-family: 'Helvetica Neue';
     animation: lateLoad 5s;
-    h1{    
+    h1{   
+        text-align: center;
         animation: colorChange 2s;
         animation-iteration-count: infinite;
+    }
+}
+
+.Button{
+    button{
+        position: relative;
+        font-family: 'Helvetica Neue';
+        font-size:15px;
+        font-weight: bold;
+        width: 120px;
+        left: 8px;
+        top: 30px;
+        text-align: center;
+        color: black;
+        background: radial-gradient(#2fc8fa, #03a8e9);
+        border: black 0.125em solid;
+        border-radius: 0.25em;
+        filter: drop-shadow(0px 3px 8px #03a8e9);
+        &:hover{
+            font-size: 20px;
+            width: 150px;
+            color: #000000;
+            transition: 0.8s;
+        }
     }
 }
 
