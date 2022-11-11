@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myWebsite/static/css/main.acb54bac.css",
+    "main.js": "/myWebsite/static/js/main.a4a6fd26.js",
+    "static/js/787.5809834d.chunk.js": "/myWebsite/static/js/787.5809834d.chunk.js",
+    "static/media/rohit sut-modified.png": "/myWebsite/static/media/rohit sut-modified.3e9bce5ec3c4c9f7fbf4.png",
+    "static/media/unnamed-modified.png": "/myWebsite/static/media/unnamed-modified.2af8e6c5779e83ecd36b.png",
+    "static/media/unnamed1-modified.png": "/myWebsite/static/media/unnamed1-modified.88fed850848a5148e14f.png",
+    "static/media/IMG-3865-modified.png": "/myWebsite/static/media/IMG-3865-modified.1b3eb38abe1ad25e4026.png",
+    "static/media/Roboto-Black.ttf": "/myWebsite/static/media/Roboto-Black.30590e18f0a5a1b62dbb.ttf",
+    "static/media/helvetica-neu.ttf": "/myWebsite/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/myWebsite/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/ROHIT NAIR-modified.png": "/myWebsite/static/media/ROHIT NAIR-modified.1c384e488ffe79292065.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/myWebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/myWebsite/index.html",
+    "main.acb54bac.css.map": "/myWebsite/static/css/main.acb54bac.css.map",
+    "main.a4a6fd26.js.map": "/myWebsite/static/js/main.a4a6fd26.js.map",
+    "787.5809834d.chunk.js.map": "/myWebsite/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb54bac.css",
+    "static/js/main.a4a6fd26.js"
+  ]
+}
