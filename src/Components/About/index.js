@@ -1,4 +1,5 @@
 import './index.scss';
+import myResume from '../../assets/Resume.pdf';
 const About = () => {
     return(
         <div className='About'>
@@ -24,11 +25,14 @@ const About = () => {
                     Blockchain networks ⛓
                 </li>
             </ul>
-            <div className='Button'>
-                <button>
-                  &#x3e;My resume&#60;
-                </button>
-            </div>
+            <a href={myResume} 
+            download={myResume}>
+                <div className='Button'>
+                    <button>
+                     &#x3e;My resume&#60;
+                    </button>
+                </div>
+            </a>
         </div>
     )
 }
